@@ -11,3 +11,4 @@ console.log('Цена одного экрана:', screenPrice);
 console.log('Процент отката:', percentage);
 console.log('Желаемая сумма:', fullPrice);
 console.log('Адаптивность:', responsive);
+

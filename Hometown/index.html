@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pardot Test Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="pardot-form">
+        <p class="form-field">
+            <label class="field-label" for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" class="text" autocomplete="off" />
+        </p>
+        <p class="form-field">
+            <label class="field-label" for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" class="text" autocomplete="off" />
+        </p>
+        <p class="form-field">
+            <label class="field-label" for="email">Email</label>
+            <input type="email" id="email" name="email" class="text" autocomplete="off" />
+        </p>
+        <p class="form-field pd-checkbox">
+            <span class="value">
+                <input type="checkbox" id="consent1" name="consent1" />
+            </span>
+            <label class="field-label" for="consent1">Digital Ticketing</label>
+        </p>
+        <p class="form-field pd-checkbox">
+            <span class="value">
+                <input type="checkbox" id="consent2" name="consent2" />
+            </span>
+            <label class="field-label" for="consent2">Event Reminders</label>
+        </p>
+        <p class="form-field pd-checkbox">
+            <span class="value">
+                <input type="checkbox" id="consent3" name="consent3" />
+            </span>
+            <label class="field-label" for="consent3">Special Offers</label>
+        </p>
+        <p class="form-field submit">
+            <input type="submit" value="Submit" />
+        </p>
+    </form>
+</body>
+</html>
